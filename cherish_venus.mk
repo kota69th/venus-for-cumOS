@@ -16,6 +16,9 @@ $(call inherit-product, device/xiaomi/venus/device.mk)
 # Inherit some common CherishOS stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
+# Inherit AnxVerse Setup.
+$(call inherit-product, vendor/xiaomi/venus-miuicamera/products/miuicamera.mk)
+
 # CherishOS Build TAGS
 CHERISH_BUILD_TYPE=OFFICIAL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
