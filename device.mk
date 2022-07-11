@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     FrameworksResVenus \
     SettingsProviderOverlayVenus \
     SettingsResVenus \
-    SystemUIResVenus
+    SystemUIResVenus \
+    DialerOverlayVenus
 
 # PowerShare
 PRODUCT_PACKAGES += \
