@@ -25,6 +25,9 @@ TARGET_KERNEL_CLANG_VERSION := prelude
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bin
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
+# Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Kernel modules
 BOOT_KERNEL_MODULES := \
     fts_touch_spi.ko \
